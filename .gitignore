@@ -1,0 +1,38 @@
+# =============== #
+# Unity generated #
+# =============== #
+/Library
+/obj
+/Temp
+Logs
+/Assets/AssetBundlesResources
+/Assets/AssetBundlesOutput
+/Assets/StreamingAssets
+
+# =========================== #
+# Resharper / Rider generated #
+# =========================== #
+/.idea
+
+/Assets/StreamingAssets/bundles.meta
+/Assets/StreamingAssets/bundles
+/MysteryMatch3.sln
+/.vs
+/*.apk
+/*.sln
+
+# ===================================== #
+# Visual Studio / MonoDevelop generated #
+# ===================================== #
+/ExportedObj
+/*.csproj
+/*.userprefs
+/*. unityproj
+/*.svd
+/*.pidb
+/*.suo
+/*.user
+/*.booproj
+/*.htm
+
+/Deploy

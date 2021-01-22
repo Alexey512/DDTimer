@@ -1,0 +1,233 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b5915ef314e39b45bd6c297ea165943, type: 3}
+  m_Name: VisualPrefabs
+  m_EditorClassIdentifier: 
+  _sprites:
+  - Id: Bolt_icon
+    Resource: {fileID: 21300000, guid: 8ee7792185f971a4ea293fe5e328eccf, type: 3}
+  - Id: RedCloth_icon
+    Resource: {fileID: 21300000, guid: 3364b63c3a25ba94fa77ddc2067a064a, type: 3}
+  - Id: Wood_icon
+    Resource: {fileID: 21300000, guid: d04c75f02b82b2f4d8109b49a7ecd40a, type: 3}
+  - Id: sofa_1_icon
+    Resource: {fileID: 21300000, guid: d2621840e53ece0429bbeb8ea81c968a, type: 3}
+  - Id: sofa_1_level_0_icon
+    Resource: {fileID: 21300000, guid: d2621840e53ece0429bbeb8ea81c968a, type: 3}
+  - Id: sofa_1_level_1_icon
+    Resource: {fileID: 21300000, guid: 1505810507187b54f8e2eb92929dcb93, type: 3}
+  - Id: sofa_1_level_2_icon
+    Resource: {fileID: 21300000, guid: 8fbde8280f439be4a9862cee3863a0cc, type: 3}
+  - Id: Maid 1_icon
+    Resource: {fileID: 21300000, guid: 9b91e1fcbd10f2641868b45df70b6847, type: 3}
+  - Id: Gloves_icon
+    Resource: {fileID: 21300000, guid: 19ee263bc5b3bb6448116d5769e26a0d, type: 3}
+  - Id: Rose_icon
+    Resource: {fileID: 21300000, guid: 8bcf6a0347e9c154483c578262e6c156, type: 3}
+  - Id: Towel_icon
+    Resource: {fileID: 21300000, guid: 2c0a791c46642bd4f97ab4be036956d2, type: 3}
+  - Id: Slippers_icon
+    Resource: {fileID: 21300000, guid: 7559e28ec25bdef458947423a79b76e1, type: 3}
+  - Id: Pillow_icon
+    Resource: {fileID: 21300000, guid: eeebd0bc33dde2440a57420cc5d097d8, type: 3}
+  - Id: Banana_icon
+    Resource: {fileID: 21300000, guid: d024f74ab2c98a24ea1bd4a562ea1124, type: 3}
+  - Id: Life_icon
+    Resource: {fileID: 21300000, guid: 28a5ac6e476455c4eae2f845a4670c0d, type: 3}
+  - Id: chair_1_icon
+    Resource: {fileID: 21300000, guid: 052976eb3a78eec43a42fb5149838be6, type: 3}
+  - Id: chair_1_level_0_icon
+    Resource: {fileID: 21300000, guid: 052976eb3a78eec43a42fb5149838be6, type: 3}
+  - Id: chair_1_level_1_icon
+    Resource: {fileID: 21300000, guid: 472f34fc99f88b34d9d2ac3833bb33f1, type: 3}
+  - Id: chair_1_level_2_icon
+    Resource: {fileID: 21300000, guid: ccce6226ebbd61f47be82d532a0ea4ad, type: 3}
+  - Id: Coin_icon
+    Resource: {fileID: 21300000, guid: 3f2bf5e9b1fb7474d97a81a880486345, type: 3}
+  - Id: Energy_icon
+    Resource: {fileID: 21300000, guid: dc318aa0e97df1148803e4a5f96d5e5a, type: 3}
+  - Id: Ruby_icon
+    Resource: {fileID: 21300000, guid: 511a1557c6e0b9c499579ab3c5bf6252, type: 3}
+  - Id: Duster_icon
+    Resource: {fileID: 21300000, guid: 175158362fde4464aba79da0985fbe5e, type: 3}
+  - Id: Broom_icon
+    Resource: {fileID: 21300000, guid: 946dbe292acf115499b40109fd5709a8, type: 3}
+  - Id: VacuumCleaner_icon
+    Resource: {fileID: 21300000, guid: f454ba761123e5247a4c6029256292ea, type: 3}
+  - Id: Time_icon
+    Resource: {fileID: 21300000, guid: 8a865d86d180324488c713a4dcbabdfe, type: 3}
+  - Id: IceCream_icon
+    Resource: {fileID: 21300000, guid: a1a34e437a55b3140a88d5acfeca7248, type: 3}
+  - Id: Donut_icon
+    Resource: {fileID: 21300000, guid: 19d05e2326fe83c409adc02d7df06dc3, type: 3}
+  - Id: CoffeeCup_icon
+    Resource: {fileID: 21300000, guid: 39d4781ffbbeb2d4ba26312b92465f64, type: 3}
+  - Id: Candy_icon
+    Resource: {fileID: 21300000, guid: ae5ca06b44579f047824091e3c49a4aa, type: 3}
+  - Id: Pack1_icon
+    Resource: {fileID: 21300000, guid: 9bec0e26e74f28e4ca0f266e496fe75a, type: 3}
+  - Id: Pack2_icon
+    Resource: {fileID: 21300000, guid: 9bec0e26e74f28e4ca0f266e496fe75a, type: 3}
+  - Id: Pack3_icon
+    Resource: {fileID: 21300000, guid: 9bec0e26e74f28e4ca0f266e496fe75a, type: 3}
+  - Id: Riley_view
+    Resource: {fileID: 21300000, guid: ff9c76f6fb6dd93489e751d21c23fbed, type: 3}
+  - Id: Hippie_view
+    Resource: {fileID: 21300000, guid: b6fbc7117d4a4dd4197d3c048c2bceaa, type: 3}
+  - Id: Harley_view
+    Resource: {fileID: 21300000, guid: e5e2540c6aa2d9740830a9852d8d90e4, type: 3}
+  - Id: Schoolgirl_view
+    Resource: {fileID: 21300000, guid: b62367702e82a084180a4b04480cfcd3, type: 3}
+  - Id: Mistress_view
+    Resource: {fileID: 21300000, guid: 01a086f696802d74aadccc7ae4867fd0, type: 3}
+  - Id: Sportgirl_view
+    Resource: {fileID: 21300000, guid: d829d7a8b4dc0c94a89370c57f2cc576, type: 3}
+  - Id: Bow_icon
+    Resource: {fileID: 21300000, guid: 84eb79456731e254098033c62fc043ed, type: 3}
+  - Id: Ass_icon
+    Resource: {fileID: 21300000, guid: f454ea14a9db7fd4ab4ddd94a55c408b, type: 3}
+  - Id: Detail_icon
+    Resource: {fileID: 21300000, guid: 555d2793d78f66047b61dd798f4eaf23, type: 3}
+  - Id: Console_icon
+    Resource: {fileID: 21300000, guid: ad5ada17b95e53e4696cd13905d41326, type: 3}
+  - Id: Battery_icon
+    Resource: {fileID: 21300000, guid: 72ee54b15d3ec2f4b9924ac512c056da, type: 3}
+  - Id: album_image_1
+    Resource: {fileID: 21300000, guid: d3fd91d3913c4dd43be81cff9c74457c, type: 3}
+  - Id: album_image_2
+    Resource: {fileID: 21300000, guid: c7aa6b16415c34246a864453e137aaaa, type: 3}
+  - Id: album_image_3
+    Resource: {fileID: 21300000, guid: f4b3ab34d0cd4304cb756176c1786cab, type: 3}
+  - Id: album_image_4
+    Resource: {fileID: 21300000, guid: 1e79f7c0094c13f47989f680f350daa1, type: 3}
+  - Id: album_image_5
+    Resource: {fileID: 21300000, guid: ccda0e14ebbb8084aa8c6cbdc72c6b3b, type: 3}
+  - Id: Quest_0_icon
+    Resource: {fileID: 21300000, guid: 3f2bf5e9b1fb7474d97a81a880486345, type: 3}
+  - Id: Quest_1_icon
+    Resource: {fileID: 21300000, guid: 90fafa3714e24e74b806fe10a73c2f88, type: 3}
+  - Id: Quest_2_icon
+    Resource: {fileID: 21300000, guid: 761b8b2643da0d040b53107411d9cd17, type: 3}
+  - Id: Quest_3_icon
+    Resource: {fileID: 21300000, guid: 71f669d7c398abb4fa919a35e41f24e7, type: 3}
+  - Id: BlueBrassiere_icon
+    Resource: {fileID: 21300000, guid: abf1b2afe4111434db689ff4a46c48a9, type: 3}
+  - Id: RedBrassiere_icon
+    Resource: {fileID: 21300000, guid: 4bcac3a17a94899468e13ce6ad5ffd10, type: 3}
+  - Id: Duck_icon
+    Resource: {fileID: 21300000, guid: 341a7117cd7587e43861d2e25af60ce9, type: 3}
+  - Id: Whip_icon
+    Resource: {fileID: 21300000, guid: ed6aa1090c4c96447af76243b48844a8, type: 3}
+  - Id: album_image_tut_0
+    Resource: {fileID: 21300000, guid: c92234caf60292348a9c4d61a41394db, type: 3}
+  - Id: album_image_tut_1
+    Resource: {fileID: 21300000, guid: 91e2b986170cc0d4d805d2587da2c656, type: 3}
+  - Id: Besom_icon
+    Resource: {fileID: 21300000, guid: 14b69eb77aaf2fe4fa5421c0709000e2, type: 3}
+  - Id: Item_A_icon
+    Resource: {fileID: 21300000, guid: 0f672713224f2084e87f0cdc42df578c, type: 3}
+  - Id: Item_B_icon
+    Resource: {fileID: 21300000, guid: a2b92bf6e4eda2c40851785334775258, type: 3}
+  - Id: Item_C_icon
+    Resource: {fileID: 21300000, guid: a11531ab2f9af4949849468505b91c4c, type: 3}
+  - Id: Item_D_icon
+    Resource: {fileID: 21300000, guid: 52a041f1be9aee54b97255b205e1b1df, type: 3}
+  - Id: Item_E_icon
+    Resource: {fileID: 21300000, guid: 6ebf4ed80566ec8469a9f08e86516898, type: 3}
+  - Id: Item_F_icon
+    Resource: {fileID: 21300000, guid: 9d68398ddf00f3047a3e8f088b9c4837, type: 3}
+  - Id: Item_G_icon
+    Resource: {fileID: 21300000, guid: b5ee11696f9c40d48af91ed54bd9faa9, type: 3}
+  - Id: Item_H_icon
+    Resource: {fileID: 21300000, guid: f69c23c256e5c28458d48b06284c68e9, type: 3}
+  - Id: Emily_view
+    Resource: {fileID: 21300000, guid: 9d9064f46e486d747ae6ba656424b2a9, type: 3}
+  - Id: Item_1_icon
+    Resource: {fileID: 21300000, guid: 2328c483748b21143a3823e244bbeb7b, type: 3}
+  - Id: Item_2_icon
+    Resource: {fileID: 21300000, guid: 7396aab600d3a344db42cd99bd337ac5, type: 3}
+  - Id: Item_3_icon
+    Resource: {fileID: 21300000, guid: 8550bdb9ad00107418a2db8d199b88c2, type: 3}
+  - Id: Item_4_icon
+    Resource: {fileID: 21300000, guid: ce48a62236e6b764db93512b6cf13a58, type: 3}
+  - Id: Item_5_icon
+    Resource: {fileID: 21300000, guid: a78ab175daeed464f9455dea7467aaf7, type: 3}
+  - Id: Item_6_icon
+    Resource: {fileID: 21300000, guid: 317165efce32e41429ac84be7eff47b6, type: 3}
+  - Id: Item_7_icon
+    Resource: {fileID: 21300000, guid: 5d1876c8993d17f44b7d5ec540b0d131, type: 3}
+  - Id: Item_8_icon
+    Resource: {fileID: 21300000, guid: 5c72d5480f8f73e448e4c4fe28b68e32, type: 3}
+  - Id: Item_9_icon
+    Resource: {fileID: 21300000, guid: 5307647875de2424aa49b5f3e09ba283, type: 3}
+  - Id: Item_10_icon
+    Resource: {fileID: 21300000, guid: e21c50ea1a08f61469f8cea429132f46, type: 3}
+  - Id: Item_11_icon
+    Resource: {fileID: 21300000, guid: d8ffce7a39d84964490e6144d15cda3a, type: 3}
+  - Id: Item_12_icon
+    Resource: {fileID: 21300000, guid: 212248c8ff5766c4682bbf0aa8d9d42f, type: 3}
+  - Id: Item_13_icon
+    Resource: {fileID: 21300000, guid: fb6dcef44148cbf4cb6a49811038ff03, type: 3}
+  - Id: Item_14_icon
+    Resource: {fileID: 21300000, guid: fb58c96aa0b31f5499dfdabb6829560f, type: 3}
+  - Id: Item_15_icon
+    Resource: {fileID: 21300000, guid: 86c31abb8dc97134a881d195e5cd6f4c, type: 3}
+  - Id: Item_16_icon
+    Resource: {fileID: 21300000, guid: 9d290bcdf4b5b4445a5fa02142b1f6d2, type: 3}
+  - Id: Item_17_icon
+    Resource: {fileID: 21300000, guid: 89e7554b5baf98a40b34b3076287fd30, type: 3}
+  - Id: Item_18_icon
+    Resource: {fileID: 21300000, guid: 0968c5d7af8a4bc4fbef424c65b0dcca, type: 3}
+  - Id: Item_19_icon
+    Resource: {fileID: 21300000, guid: 15251dc253d161840a89aab86efee995, type: 3}
+  - Id: Item_20_icon
+    Resource: {fileID: 21300000, guid: 35917dcf6b493664cbea6216df3300b6, type: 3}
+  - Id: Item_21_icon
+    Resource: {fileID: 21300000, guid: 66c237e0e0884af40b9858d7f0794198, type: 3}
+  - Id: Item_22_icon
+    Resource: {fileID: 21300000, guid: 9700430443af0cd47821cb66bb4b9047, type: 3}
+  - Id: Item_23_icon
+    Resource: {fileID: 21300000, guid: 47a98d4f7b4aee1458b1aab13ee7e3a0, type: 3}
+  - Id: Item_24_icon
+    Resource: {fileID: 21300000, guid: 1bea5b9ffc8faa643b71a09a890597db, type: 3}
+  - Id: Item_25_icon
+    Resource: {fileID: 21300000, guid: 88881430f74bdc245afc64fc960c7380, type: 3}
+  - Id: Item_26_icon
+    Resource: {fileID: 21300000, guid: 3571886d8e487e8429fc6392b0545617, type: 3}
+  - Id: Item_27_icon
+    Resource: {fileID: 21300000, guid: 778c508c9ec1e2647a7e8cc3ad5a7a47, type: 3}
+  - Id: Item_28_icon
+    Resource: {fileID: 21300000, guid: 6f7dbe625efc2d54fa96fc50c6658ddb, type: 3}
+  - Id: Item_29_icon
+    Resource: {fileID: 21300000, guid: 5b143b53af3f2d44f8c697897fda8054, type: 3}
+  - Id: Item_30_icon
+    Resource: {fileID: 21300000, guid: 9d952a3c3090c0a4c8b6976d328fb565, type: 3}
+  - Id: Item_31_icon
+    Resource: {fileID: 21300000, guid: cec1010458f7ea54f9419731994b2187, type: 3}
+  - Id: Item_32_icon
+    Resource: {fileID: 21300000, guid: 21e3f320723d2f9438791a97648a5c04, type: 3}
+  - Id: Item_33_icon
+    Resource: {fileID: 21300000, guid: 859d04b6f89025a4eafd36a920f8e874, type: 3}
+  - Id: common_chest_icon
+    Resource: {fileID: 21300000, guid: 3728bc20e14e59e47b0a055db125fcf0, type: 3}
+  - Id: epic_chest_icon
+    Resource: {fileID: 21300000, guid: 0e63f507745eb9f4c9a1ebf19e6cd712, type: 3}
+  - Id: legendary_chest_icon
+    Resource: {fileID: 21300000, guid: b06e26972657be34282f5aecebdbac6f, type: 3}
+  - Id: rare_chest_icon
+    Resource: {fileID: 21300000, guid: 8ef857fbbd4edd64fae6d50b12e3c2d3, type: 3}
+  - Id: clean_room_icon
+    Resource: {fileID: 21300000, guid: eec9e573630e79c44a8e1d003eedf838, type: 3}
+  - Id: hire_made_icon
+    Resource: {fileID: 21300000, guid: 0410d018bfe9404498e5ba897e49c35e, type: 3}
+  - Id: open_room_icon
+    Resource: {fileID: 21300000, guid: 75535bc577217b8449eca1ebd60b1a8d, type: 3}

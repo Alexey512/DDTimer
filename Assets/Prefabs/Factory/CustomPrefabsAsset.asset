@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61e810d523f7c124fb4ddf042b6ed9d0, type: 3}
+  m_Name: CustomPrefabsAsset
+  m_EditorClassIdentifier: 
+  _Prefabs:
+  - Id: wrong_tap
+    Prefab: {fileID: 100004, guid: f95ff734540a0d749be6571b6cb5b37f, type: 3}
+  - Id: light_1
+    Prefab: {fileID: 1545806602296978, guid: 9e4577abe56a95f4a91d29a0473cd30c, type: 3}
+  - Id: star_1
+    Prefab: {fileID: 100006, guid: 8fc06027b01064e4f885fd8dd2929310, type: 3}
+  - Id: light_2
+    Prefab: {fileID: 100004, guid: f95ff734540a0d749be6571b6cb5b37f, type: 3}
+  - Id: light_3
+    Prefab: {fileID: 1844191813266838, guid: 968c924d2be019d4b9e67647551eec3e, type: 3}
+  - Id: stars_trail
+    Prefab: {fileID: 5362890671337469263, guid: 27d15c6273fb29149873053bf1f5739e,
+      type: 3}
+  - Id: coins_trail
+    Prefab: {fileID: 5362890671337469263, guid: d3526a17f81f9a447b201ea7b59a57e5,
+      type: 3}
+  - Id: ruby_trail
+    Prefab: {fileID: 166283829711740464, guid: d5491eeeae9958643a205a4a38c87360, type: 3}
+  - Id: find_ho
+    Prefab: {fileID: 33543226607861160, guid: c1bc04a8e64a10c488b8fdd781144fde, type: 3}
+  - Id: fly_ho
+    Prefab: {fileID: 3007693927840538147, guid: 352141adcd3306540b4604e2bc45b924,
+      type: 3}
+  - Id: hint_ho
+    Prefab: {fileID: 6891216070972543238, guid: 72c30a41afca40541ab9772c6ae54825,
+      type: 3}
+  - Id: vacuum_cleaner_booster
+    Prefab: {fileID: 6196412743723615386, guid: 818a6f2da613f2049a0990eb38cfb200,
+      type: 3}
+  - Id: wrong_tap_cross
+    Prefab: {fileID: 7858348864662140130, guid: dfac0e09f25ea2b4b899b6837f820e37,
+      type: 3}
+  - Id: wrong_tap_clock
+    Prefab: {fileID: 933293232913667984, guid: d69f05b78d10ce940bb66f11ce6b8348, type: 3}
+  - Id: add_time_effect
+    Prefab: {fileID: 5512255049229298941, guid: 663d1223e0d91b743b970b664a2ff6a2,
+      type: 3}
+  - Id: tutorialMask
+    Prefab: {fileID: 882233576996527226, guid: 6b78eefa32832604d8b6e345b3f5ba57, type: 3}
+  - Id: item_collect
+    Prefab: {fileID: 3387603534220911501, guid: 9bdae2fb408e9aa47a32caff079b4306,
+      type: 3}
+  - Id: common_chest
+    Prefab: {fileID: 2175978808881669310, guid: 2ec9cfc6809707e459a0475a9cf7eb16,
+      type: 3}
+  - Id: epic_chest
+    Prefab: {fileID: 1964177403977004811, guid: 4ca650dd51593d842a89f66d4794e466,
+      type: 3}
+  - Id: legendary_chest
+    Prefab: {fileID: 623743543621337692, guid: 82cef60cb77ad9543916a606a339b5c3, type: 3}
+  - Id: rare_chest
+    Prefab: {fileID: 6791757085344540799, guid: 9a6d5d7e6695d4f44973c2707f91d97b,
+      type: 3}
+  - Id: Cube
+    Prefab: {fileID: 6608157293841668762, guid: 4722948f6276f8a4fa1ec9b947f90269,
+      type: 3}
+  - Id: CubeClickBubble
+    Prefab: {fileID: 7695477403586475713, guid: 5abaefc2c0f4b374fa6ff34d9f590254,
+      type: 3}
