@@ -56,13 +56,13 @@ namespace Assets.Scrips.Game.UI
 			    {
 					btn.Open();
 			    }));
-			    showActions.Add(new WaitAction(0.3f));
+			    showActions.Add(new WaitAction(0.15f));
 
 			    hideActions.Add(new ExecuteAction(() =>
 			    {
 				    btn.Close();
 			    }));
-			    hideActions.Add(new WaitAction(0.3f));
+			    hideActions.Add(new WaitAction(0.15f));
 		    }
 
 		    showAction.Add(new CallbackAction(finish =>

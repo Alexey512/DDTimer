@@ -36,7 +36,7 @@ namespace Assets.Scrips.Game.Timers
 		{
 			for (int i = 0; i < _config.TimersCount; i++)
 			{
-				var timer = new TimerEntity(i, _storage);
+				var timer = new TimerEntity(i, _storage, _config);
 				_timers.Add(timer);
 			}
 		}

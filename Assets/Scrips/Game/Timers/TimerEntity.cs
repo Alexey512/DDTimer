@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Assets.Scrips.Common.Storage;
+using Assets.Scrips.Game.Config;
 using UnityEngine;
 
 namespace Assets.Scrips.Game.Timers
@@ -22,8 +23,6 @@ namespace Assets.Scrips.Game.Timers
 
 		public string Id => $"timer_{Index}";
 
-		public int Duration { get; set; } = 90;
-
 		public bool IsPaused
 		{
 			get => _isPaused;
@@ -38,7 +37,7 @@ namespace Assets.Scrips.Game.Timers
 
 		private static string PAUSE_KEY = "_pause";
 
-		public TimerEntity(int index, IDataStorage storage)
+		public TimerEntity(int index, IDataStorage storage, IGameConfig config)
 		{
 			Index = index;
 			_storage = storage;
@@ -49,7 +48,7 @@ namespace Assets.Scrips.Game.Timers
 			}
 			else
 			{
-				_leftTime = Duration;
+				_leftTime = config.StartDuration;
 				IsPaused = true;
 				Save();
 			}
@@ -68,12 +67,6 @@ namespace Assets.Scrips.Game.Timers
 		public bool IsComplete()
 		{
 			return GetLeftTime() == 0;
-		}
-
-		public void ResetTime()
-		{
-			_leftTime = Duration;
-			Save();
 		}
 
 		public int GetLeftTime()
