@@ -21,12 +21,15 @@ namespace Assets.Scrips.Common.Actions.Animator
 
 		protected override void OnExecute()
 		{
-			if (_animator != null)
+			if (_animator == null)
 			{
-				_animator.SetBool(_varName, _varValue);
+				Status = ActionStatus.Finished;
+				return;
 			}
 
-			Finish();
+			_animator.SetBool(_varName, _varValue);
+			
+			Status = ActionStatus.Finished;
 		}
 	}
 }

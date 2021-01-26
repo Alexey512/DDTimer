@@ -1,5 +1,4 @@
 {
-	"CubesCount": 5,
-	"RespRadius": 130,
-	"RespHeight": 10
+	"TimersCount": 4,
+	"StartDuration": 60
 }

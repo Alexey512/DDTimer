@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Assets.Scrips.Common.UI;
+using Assets.Scrips.Game.Timers;
+using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem.HID;
 using UnityEngine.UI;
@@ -22,6 +25,9 @@ namespace Assets.Scrips.Game.UI
 		private Button _button;
 
 		[SerializeField]
+		private TextMeshProUGUI _buttonLabel;
+
+		[SerializeField]
 		private Animator _animator;
 
 		[SerializeField]
@@ -35,7 +41,9 @@ namespace Assets.Scrips.Game.UI
 
 		private Action<int> _callback;
 
-		public int Index { get; private set; }
+		private TimerEntity _timer;
+
+		public int Index => _timer.Index;
 
 		private void Awake()
 		{
@@ -45,10 +53,26 @@ namespace Assets.Scrips.Game.UI
 			});
 		}
 
-		public void Initialize(int index, Action<int> callback)
+		public void Initialize(TimerEntity timer, Action<int> callback)
 		{
-			Index = index;
+			_timer = timer;
 			_callback = callback;
+
+			_buttonLabel.text = $"Button {_timer.Index + 1}";
+
+			_timer.Complete += OnTimerComplete;
+
+			UpdateButtonState();
+		}
+
+		private void OnTimerComplete(TimerEntity timer)
+		{
+			UpdateButtonState();
+		}
+
+		private void UpdateButtonState()
+		{
+			_buttonLabel.color = _timer.IsComplete() ? Color.green : Color.black;
 		}
 
 		public void Open()
@@ -85,6 +109,14 @@ namespace Assets.Scrips.Game.UI
 			}
 
 			return State.None;
+		}
+
+		private void OnDestroy()
+		{
+			if (_timer != null)
+			{
+				_timer.Complete -= OnTimerComplete;
+			}
 		}
 	}
 }

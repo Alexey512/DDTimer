@@ -16,3 +16,6 @@ MonoBehaviour:
   - Id: MainMenu
     Prefab: {fileID: 1799568100399873596, guid: 2b28e66277bed314b81ff3ff44cbb0a4,
       type: 3}
+  - Id: Timer
+    Prefab: {fileID: 3724689610477898143, guid: b84175d729dbaea4b83854801497df47,
+      type: 3}

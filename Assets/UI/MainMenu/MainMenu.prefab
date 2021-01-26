@@ -431,6 +431,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _button: {fileID: 1799568101217672921}
+  _buttonLabel: {fileID: 6014112960062218038}
   _animator: {fileID: 6014112959580470849}
   _closeStateName: Close
   _openStateName: Open

@@ -8,10 +8,8 @@ namespace Assets.Scrips.Game.Config
 {
     public interface IGameConfig
     {
-        int CubesCount { get; }
+        int TimersCount { get; }
 
-        float RespRadius { get; }
-
-        float RespHeight { get; }
+        float StartDuration { get; }
     }
 }

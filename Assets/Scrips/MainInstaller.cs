@@ -5,11 +5,9 @@ using Assets.Scrips.Common.Storage;
 using Assets.Scrips.Common.Visual;
 using Assets.Scrips.Game;
 using Assets.Scrips.Game.Config;
-using Assets.Scrips.HOG.Visual;
-using Assets.Scrips.UI;
+using Assets.Scrips.Game.Timers;
 using Assets.Scripts.Common.UI;
 using UnityEngine;
-using UnityEngine.AddressableAssets;
 using Zenject;
 
 namespace Assets.Scrips
@@ -38,15 +36,15 @@ namespace Assets.Scrips
 		{
             Container.Bind<IInputManager>().To<InputManager>().FromNewComponentOnRoot().AsSingle();
 
+            Container.Bind<IDataStorage>().To<DataStorage>().AsSingle();
 			Container.Bind<IGameConfig>().FromInstance(new GameConfig(_gameConfig));
+			Container.Bind(typeof(ITimersController), typeof(IDisposable), typeof(ITickable)).To<TimersController>().AsSingle();
 
 			Container.Bind(typeof(IActionsSequencer), typeof(ITickable)).To<ActionsSequencer>().AsSingle();
 
             Container.Bind<IUIManager>().To<UIManager>().AsSingle();
             Container.Bind<IWindowRoot>().To<WindowRoot>().FromInstance(_windowRoot);
             Container.Bind<VisualRoot>().FromNewComponentOn(_visualRoot).AsSingle();
-
-			Container.Bind<EffectsHelper>().AsSingle();
 
             Container.Bind<IVisualFactory>().To<VisualFactory>().FromInstance(_visualFactory).AsSingle();
             Container.Bind<IPrefabsFactory>().To<PrefabsFactory>().FromInstance(_prefabsFactory).AsSingle();

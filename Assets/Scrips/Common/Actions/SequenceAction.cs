@@ -58,10 +58,5 @@ namespace Assets.Scrips.Common.Actions
 			}
 			return true;
 		}
-
-		public override void Finish()
-		{
-			base.Finish();
-		}
 	}
 }

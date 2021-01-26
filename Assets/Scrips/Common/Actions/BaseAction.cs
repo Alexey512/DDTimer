@@ -18,12 +18,12 @@ namespace Assets.Scrips.Common.Actions
 			OnExecute();
 		}
 
-		public virtual void Update()
+		public void Finish()
 		{
-
+			Status = ActionStatus.Finished;
 		}
 
-		public virtual void Finish()
+		public virtual void Update()
 		{
 
 		}

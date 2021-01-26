@@ -5,23 +5,19 @@ namespace Assets.Scrips.Game.Config
 {
     public class GameConfig: IGameConfig
     {
-        private class Config
-        {
-            public int CubesCount;
+	    private class Config
+	    {
+		    public int TimersCount;
 
-            public float RespRadius;
+		    public float StartDuration;
+	    }
 
-            public float RespHeight;
-        }
+	    private Config _config;
 
-        private Config _config;
+        public int TimersCount => _config?.TimersCount ?? 0;
 
-        public int CubesCount => _config?.CubesCount ?? 0;
-
-        public float RespRadius => _config?.RespRadius ?? 0;
-
-        public float RespHeight => _config?.RespHeight ?? 0;
-
+        public float StartDuration => _config?.StartDuration ?? 0;
+        
         public GameConfig(TextAsset data)
         {
             if (data == null)

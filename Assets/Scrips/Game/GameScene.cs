@@ -6,6 +6,7 @@ using Assets.Scrips.Common.InputSystem;
 using Assets.Scrips.Common.Utils;
 using Assets.Scrips.Common.Visual;
 using Assets.Scrips.Game.Config;
+using Assets.Scrips.Game.Timers;
 using Assets.Scrips.Game.UI;
 using Assets.Scripts.Common.UI;
 using UnityEngine;

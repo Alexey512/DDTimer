@@ -66,6 +66,7 @@ namespace Assets.Scripts.Common.UI.Controller
 		{
 			gameObject.SetActive(false);
 			OnClose();
+			Manager.Close(this);
 			callback?.Invoke(this);
 		}
 

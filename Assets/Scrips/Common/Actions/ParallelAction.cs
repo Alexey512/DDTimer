@@ -34,10 +34,5 @@ namespace Assets.Scrips.Common.Actions
 				}
 			}
 		}
-
-		public override void Finish()
-		{
-			base.Finish();
-		}
 	}
 }
